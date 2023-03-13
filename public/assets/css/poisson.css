@@ -1,0 +1,26 @@
+.navbare a {
+    color:#fff
+
+}
+.navnavi, .navnavi a{
+    color: white;
+}
+
+.inscription{
+    margin-top:5em;
+}
+.inscription h1{
+    text-align: center;
+}
+.login{
+    margin-top:5em;
+
+}
+.inscription h1{
+text-align: center;
+
+}
+h1{
+    border-style: dotted;
+
+}

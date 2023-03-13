@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+
+{% block content %}
+<link rel="stylesheet" href=" {{asset('assets/css/compte.css') }}">
+
+<h1> Mon compte</h1>
+<div class="entete">
+Bienvenue {{app.user.prenom}} {{app.user.nom}} dans votre compte <br> vous pouvez desormais faire votre commandes 
+
+</div>
+
+<hr>
+-Modifier mon mot de passe
+-ajouter mes adresses
+-mes commandes
+<hr>
+{# {{dump(app.user)}} #}
+{% endblock %}
